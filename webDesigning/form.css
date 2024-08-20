@@ -1,0 +1,67 @@
+body{
+      background-color: rgb(8, 8, 60);
+}
+h1{
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+      text-align: center;
+      color: white; 
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 25px;
+}
+.container{
+      width: 40%;
+      margin: auto;
+      background-color:  rgb(8, 8, 60);
+}
+.formData{
+      height: 20px;    
+      width: 587px; 
+}
+label{
+      font-size: 20px;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+}
+input{
+      margin-bottom: 10px;
+      margin-top: 10px;
+      background-color: rgb(10, 10, 32); ;
+}
+hr{ 
+      padding-left: 0%;
+}
+#submit{
+      text-align: center;
+      justify-content: center;
+      margin-left: 230px;
+      width: 200px;
+      height: 30px;
+      margin-top: 15px;
+      border-color: white;
+      color: white;
+      font-size: 20px;
+      background-color: blue;
+}
+
+#con{
+}
+select{
+      margin-bottom: 15px;
+
+}
+textarea{
+      margin-top: 15px;
+}
+option{
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+#bio{
+      margin-bottom: 15px;
+}

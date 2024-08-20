@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Registration Form</title>
+      <link rel="stylesheet" href="form.css">
+</head>
+<body>
+      <div class="container">
+            <h1>Registrtaion Form</h1>
+            <p>Please fill out this form with the required information</p>
+            <form class="data">
+                  <label for="fname">Enter Your First Name:</label> <br>
+                  <input type="text" class="formData" name="fname" id="fname"><br>
+
+                  <label for="lname">Enter Your Last  Name:</label> <br>
+                  <input type="text" name="lname" class="formData" id="lname"><br>
+
+                  <label for="email">Enter Your Email:</label> <br>
+                  <input type="text" name="fname" class="formData" id="fname"> <br>
+
+                  <label for="Password">Enter Your Password:</label> <br>
+                  <input type="Password" name="pass" class="formData" id="pass">
+                  
+                  <hr>
+                  <p>Account type (required)</p>
+                  <input type="radio" name="account" value="Personal">
+                  <label for="personal">Personal</label><br>
+                  <input type="radio" name="account" value="Personal">
+                  <label for="personal">Personal</label>
+                  
+                  <hr>
+                  <p>Upload a profile picture:</p>
+                  <input type="file" name="profileimage"><br>
+
+                  <label for="age">Input your age (years):</label><br>
+                  <input type="text" class="formData"  name="profileimage"> <br>
+
+                  <label for="bio" id="bio">How did you hear about us?</label><br>
+                  <select name="city" id="" class="formData">
+                        <option value="Aahmedabad">Aahmedabad</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Delhi">Delhi</option>
+                  </select> <br>
+                  <label for="bio">Provide a bio:</label><br>
+                  <textarea name="bio" class="con"  cols="78" rows="4">I like coding....</textarea> <br>
+
+                  <input type="checkbox" id="check-box" value="terms">
+                  <label for="" class="con"> I accept the terms and conditions</label> <br>
+                  
+                  <button type="submit" id="submit">submit</button>
+
+            </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  table {
+      border: none;
+      border-collapse: collapse; 
+      width: 100%;
+  }
+  
+  tr, td {
+      margin: 0;
+      padding: 8px; 
+  }
+  
+  .year {
+      background-color: black;
+      color: aliceblue;
+  }
+  
+  .container {
+      justify-content: center;
+  }
+  
+
+  tbody tr:nth-child(3n+2) {
+      background-color: lightgray;
+  }
+  
+
+  tbody tr:nth-child(2n+3) {
+      background-color: white;
+  }
+  
+  tbody tr:nth-child(3n+3) {
+      background-color: white;
+      font-style: italic;
+  }
+  
